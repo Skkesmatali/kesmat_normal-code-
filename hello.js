@@ -1,12 +1,26 @@
-let arr=[{
-    name:"aman",
-    marks:95
-},
-{
+ const student={
     name:"kesmat",
-    marks:80
-},
-{
-    name:"rajat",
-    marks:40
-}];
+    marks:95,
+    prop:this,
+    getName:function(){
+        console.log(this);
+        return this.name;
+    },
+    getMarks:() =>{
+        console.log(this);
+        return this.marks;
+    },
+    getInfo1: function(){
+        setTimeout(()=>{
+            console.log(this);
+        },2000);
+    },
+
+     getInfo2: function(){
+        setTimeout(function(){
+            console.log(this);
+        },2000);
+    },
+
+
+ };
