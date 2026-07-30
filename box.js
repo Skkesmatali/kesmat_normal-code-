@@ -7,5 +7,5 @@ p.addEventListener("click",function(){
 
 let box=document.querySelector(".box");
 box.addEventListener("mouseenter",function(){
-    console.log("mouse insde box")
-})
+    console.log("mouse insde box");
+});
