@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snake Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<form action="/action">
+<input placeholder="username" type="text" id="user"/>
+<input placeholder="password" type="password" id="pass"/>
+<button>Register</button>
+</form>
+
+<script src="hello.js"></script>
+
+</body>
+</html>
+
+
+
+ 
